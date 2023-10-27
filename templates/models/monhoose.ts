@@ -4,5 +4,5 @@ const schema = new Schema({
     
   });
   
-type thisiplaceHolder = InferSchemaType<typeof schema>;
-export default thisiplaceHolder
+type thisiplaceHolderType = InferSchemaType<typeof schema>;
+export default mode("thisiplaceHolder",thisiplaceHolderType)
